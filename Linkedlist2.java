@@ -1,4 +1,4 @@
-public class Linkedlist1 {
+public class Linkedlist2 {
     static class Node {
         int val;
         Node next;
