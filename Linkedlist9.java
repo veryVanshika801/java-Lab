@@ -11,9 +11,6 @@ public class Linkedlist9 {
     }
 
     public static int middle(Node head) {
-        if (head == null) {
-            throw new IllegalArgumentException("List must not be empty");
-        }
 
         Node slow = head;
         Node fast = head;
@@ -28,6 +25,7 @@ public class Linkedlist9 {
     }
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -48,10 +46,7 @@ public class Linkedlist9 {
             }
         }
 
-        if (head == null) {
-            System.out.println("Empty");
-        } else {
-            System.out.println(middle(head));
-        }
+        System.out.println(middle(head));
     }
 }
+
